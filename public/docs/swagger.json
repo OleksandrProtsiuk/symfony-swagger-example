@@ -1,0 +1,28 @@
+{"swagger":"2.0",
+
+  "info":{
+    "title":"My Mega App",
+    "description":"This is an awesome OLD app! Hell Yeah!",
+    "version":"-1.0.0"},
+
+  "paths":{
+    "\/user\/test\/test":{
+      "get":{
+        "summary":"Title, \u0451\u043f\u0442\u0430!",
+        "description":"This call do nothing.",
+        "parameters":[{
+          "name":"SomeParameter",
+          "in":"query",
+          "description":"About SomeParameter",
+          "type":"string"}],
+      "responses":{
+        "200":{
+          "description":"Returns Dummy msg"},
+        "300":{
+          "description":"Returns 300"}
+      },
+        "tags":["Test Rotes"]
+      }
+    }
+  }
+}
