@@ -1,4 +1,5 @@
 hb_swagger_ui:
   directory: "%kernel.root_dir%"
+  #alias: "/alias" # new for example
   files:
     - "/docs/swagger.yml"
