@@ -20,7 +20,7 @@ class Configuration implements ConfigurationInterface
         $rootNode
             ->children()
                 ->scalarNode('directory')->defaultValue('')->end()
-                ->scalarNode('alias')->defaultValue('')->end()
+                ->scalarNode('assets')->defaultValue('')->end()
                 ->arrayNode('files')->isRequired()->prototype('scalar')->end()
 
             ->end()

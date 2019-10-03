@@ -1,5 +1,5 @@
 hb_swagger_ui:
   directory: "%kernel.root_dir%"
-  #alias: "/alias" # new for example
+  assets: "/custom-assets-directory/hbswaggerui/" # manual set up of assets
   files:
     - "/docs/swagger.yml"
